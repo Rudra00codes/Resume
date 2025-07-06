@@ -49,7 +49,7 @@ The resume is fully responsive and looks great on:
 ## 🤝 Contact
 
 - **Email**: rudra17122005@gmail.com
-- **LinkedIn**: [LinkedIn Profile](https://linkedIn.in/rudra-pratap-singh1712)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/rudra-pratap-singh2027)
 - **GitHub**: [GitHub Profile](https://github.com/Rudra00codes)
 
 ---
