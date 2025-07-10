@@ -42,7 +42,7 @@ p {
 
 hr {
     border: none;
-    height: 2.5px;
+    border: 0.1rem solid black;
     background-color: rgba(0, 0, 0, 0.863);
     margin: 3px 0px 7px 0px;
     border-radius: 50px;
@@ -139,8 +139,10 @@ ul li::marker {
 }
 
 .relevantSkills .skill-category {
+    display: flex;
+
     margin-bottom: 10px;
-    padding: 5px 0;
+    padding: 2px 0;
 }
 
 .relevantSkills .skill-category h3 {
@@ -150,25 +152,28 @@ ul li::marker {
 }
 
 .relevantSkills .skill-category p {
-    margin-left: 20px;
-    line-height: 1.4;
+    margin-left: 15px;
+    line-height: 1.2;
     color: rgb(38, 38, 38);
 }
 
-.experience-header, .project-header {
+.experience-header,
+.project-header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 8px;
 }
 
-.experience-header h3, .project-header h3 {
+.experience-header h3,
+.project-header h3 {
     flex: 1;
     margin: 0;
     padding-right: 15px;
 }
 
-.experience-meta, .project-meta {
+.experience-meta,
+.project-meta {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -181,18 +186,20 @@ ul li::marker {
     font-weight: 500;
 }
 
-.github-link, .project-link {
+.github-link,
+.project-link {
     font-size: 12px;
     padding: 2px 6px;
     border-radius: 3px;
     background-color: rgba(0, 0, 0, 0.05);
 }
 
-.github-link:hover, .project-link:hover {
+.github-link:hover,
+.project-link:hover {
     background-color: rgba(54, 0, 180, 0.1);
 }
 
-/* Responsiveness for Mobile devices*/ 
+/* Responsiveness for Mobile devices*/
 
 @media (max-width: 768px) {
     .mainContainer {
@@ -200,31 +207,31 @@ ul li::marker {
         padding: 20px;
         margin: 10px auto;
     }
-    
+
     h1 {
         font-size: 20px;
         text-align: center;
     }
-    
+
     h2 {
         font-size: 16px;
     }
-    
+
     h3 {
         font-size: 14px;
         line-height: 1.3;
     }
-    
+
     .contactInfo {
         text-align: center;
         font-size: 12px;
         line-height: 1.5;
     }
-    
+
     .separator {
         margin: 0 5px;
     }
-    
+
     .summary,
     .releExperience,
     .projects,
@@ -233,55 +240,57 @@ ul li::marker {
     .awards {
         padding: 5px;
     }
-    
+
     ul {
         margin-left: 15px;
     }
-    
+
     li {
         font-size: 13px;
         margin-bottom: 5px;
     }
-    
+
     .skill-grid {
         grid-template-columns: 1fr;
         gap: 10px;
     }
-    
+
     .relevantSkills .skill-category {
         margin-bottom: 10px;
     }
-    
+
     .relevantSkills .skill-category p {
         margin-left: 10px;
         font-size: 12px;
     }
-    
-    /* Date and meta layout adjustments for mobile */
-    .experience-header, .project-header {
+
+    .experience-header,
+    .project-header {
         flex-direction: column;
         align-items: flex-start;
     }
-    
-    .experience-header h3, .project-header h3 {
+
+    .experience-header h3,
+    .project-header h3 {
         padding-right: 0;
         margin-bottom: 5px;
     }
-    
-    .experience-meta, .project-meta {
+
+    .experience-meta,
+    .project-meta {
         align-items: flex-start;
         flex-direction: row;
         gap: 10px;
         margin-bottom: 5px;
     }
-    
+
     .date {
         font-size: 11px;
     }
-    
-    .github-link, .project-link {
+
+    .github-link,
+    .project-link {
         font-size: 10px;
         padding: 1px 4px;
     }
 }
-
